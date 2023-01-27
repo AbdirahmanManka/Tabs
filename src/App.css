@@ -1,0 +1,107 @@
+/* Remove browser defaults */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ }
+
+ /* Style App.js wrapper */
+.App {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+}
+
+/* Tab Container */
+.Tabs {
+  width: 30%;
+  height: auto;
+  min-height: 400px;
+  background: #747F8A;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+ }
+
+ /* Tab Navigation */
+ul.nav {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5C0632;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ul.nav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ul.nav li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ul.nav li:hover {
+  background:#747F8A;
+}
+ul.nav li.active {
+  background: #5C0632;
+}
+/* First and Second Tab Styles */
+.FirstTab p,
+.SecondTab p {
+  font-size: 2rem;
+  text-align: center;
+}
+.SecondTab button{
+  
+  size: 200px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.Taps {
+  width: 30%;
+  height: auto;
+  min-height: 400px;
+  background: #747F8A;
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+  }
+ }
+ ul.nav2 {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5C0632;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
